@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include <vector>
-
+#include <cmath>
 using namespace std;
 
 class Euler {
@@ -58,7 +58,7 @@ public:
             x.push_back(x[step - 1] + step_value);
             double dy_now = 0;
             for (int pointer = 0; pointer < arg_y.size(); pointer++) {
-                dy_now += arg_y[pointer] * y[step] * arg_const[pointer] * arg_x[pointer] * x[step];
+                dy_now += arg_const[pointer] * pow(y[step], arg_y[pointer]) * pow(x[step], arg_x[pointer]);
             }
             dy.push_back(dy_now);
         }

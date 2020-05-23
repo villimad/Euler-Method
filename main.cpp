@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-    //dy = y * 2x * 1 + y * 2
+    //dy = 2 * x * y + y
     vector<int> arg_y = {1, 1};
-    vector<int> arg_x = {2, 0};
-    vector<double> arg_const = {1, 2};
+    vector<int> arg_x = {1, 0};
+    vector<double> arg_const = {2, 1};
     double dy0 = 0.5;
     double x0 = 0;
     double y0 = 0;
@@ -31,5 +31,6 @@ int main()
     for (int q = 0; q < steps; q++) {
         cout << dy[q] << "; " << y[q] << "; " << x[q] << endl;
     }
+
     return 0;
 }
