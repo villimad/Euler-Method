@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    //dy = 2 * x * y + y
+    //dy = 2 * (x ^ 2) * y + y
     vector<int> arg_y = {1, 1};
     vector<int> arg_x = {1, 0};
     vector<double> arg_const = {2, 1};
