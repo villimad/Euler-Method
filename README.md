@@ -4,4 +4,4 @@
  You can see a usage example in main.cpp.
 
  Equation in example:
- dy/dx = y * 2x * 1 + y * 2
+ dy/dx = 2 * x * y + y
