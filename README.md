@@ -1,5 +1,5 @@
 # Euler-Method
- Euler method for one equation
+ Euler method for one differential equation.
 
  You can see a usage example in main.cpp.
 
